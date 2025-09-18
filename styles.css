@@ -1,1 +1,13 @@
 /*  your css code here. If applicable */
+/* Line appearance and centering */
+#line {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 2px;
+  background: #000; /* black */
+  /* center the element's origin; we include translate here so rotation happens about the center */
+  transform: translate(-50%, -50%) rotate(0deg);
+  transform-origin: center;
+}
