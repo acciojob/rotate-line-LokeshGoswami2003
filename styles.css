@@ -6,6 +6,4 @@
   height: 2px;
   background: rgb(0,0,0); /* black */
   /* center the element's origin; we include translate here so rotation happens about the center */
-  transform: translate(-50%, -50%) rotate(0deg);
-  transform-origin: center;
 }
